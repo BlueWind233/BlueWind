@@ -52,7 +52,8 @@ header a:hover {
     background-image: url("../img/Background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position-x: right;
+    background-position-y: top;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,7 +90,8 @@ header a:hover {
     background-image: url("../img/Background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position-x: right;
+    background-position-y: top;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -149,6 +151,18 @@ footer p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image: url("../img/Background.jpg");
+    background-position-x: right;
+    background-position-y: top;
+    background-repeat: no-repeat;
+}
+
+.Avatar h2 {
+    color: white;
+}
+
+.Avatar strong {
+    color: white;
 }
 
 .infoa h2 {
@@ -184,7 +198,8 @@ footer p {
     background-color: antiquewhite;
     background-image: url("../img/Background.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position-x: right;
+    background-position-y: top;
     background-size: cover;
 }
 
